@@ -1,0 +1,17 @@
+diff --git a/scope-advice/common.h b/scope-advice/common.h
+index 329487d..2442e15 100644
+--- a/scope-advice/common.h
++++ b/scope-advice/common.h
+@@ -65,10 +65,10 @@
+ #endif
+ 
+ // optimization switches
+-#define DO_FILTER 1
++#define DO_FILTER 0
+ #define DO_PARALLEL 1
+ #define DO_SAMPLING 1
+-#define DO_STREAM 1
++#define DO_STREAM 0
+ // evaluation flag to measure NVBit overhead
+ #define DO_ANALYZE 1
+ 

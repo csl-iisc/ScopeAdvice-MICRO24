@@ -1,0 +1,9 @@
+cmd: ./cuml_og
+args: 
+tests: 3
+input_file: inputs
+redirect: false
+prolog: false
+kernels:
+  - dlbTestKernel
+
