@@ -22,7 +22,7 @@ Run the following command in the current folder:
 ./run.sh
 ```
 
-The outputs of this experiment are parsed to measure the performance improvement, and also provide the peformance counter values (stalls due to fence operations). The scripts responsible for parsing can be found in *[table-2](table-2/)*, called *process-table-2.py*. 
+The outputs of this experiment are parsed to measure the performance improvement, and also provide the peformance counter values (stalls due to fence operations). The scripts responsible for parsing can be found in *[table-2](../table-2/)*, called *process-table-2.py*.
 
 Raw outputs for this experiment will be contained in *table-2/ABC/og.out*, *table-2/ABC/opt.out*, *table-2/ABC/og-nsight.out* and *table-2/ABC/opt-nsight.out* where ABC is the application name (e.g., CU for cuML). The file *og.out* will contain the execution time of application with over-synchronization, and *opt.out* will contain the execution time of the application after eliminating over-synchronization. The files *og-nsight.out* and *opt-nsight.out* have the stalls the application faced due to fence instructions with and without over-synchronization respectively.
 

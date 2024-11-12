@@ -11,7 +11,7 @@ For full details refer to our paper:
 <b>Over-synchronization in GPU Programs</b>
 Ajay Nayak and Arkaprava Basu
 <i>IEEE/ACM International Symposium on Microarchitecture (MICRO), 2024</i>
-DOI: https://dl.acm.org/doi/TBA/TBA
+DOI: https://dl.acm.org/doi/10.1109/MICRO61859.2024.00064
 </pre>
 
 ## Hardware and software requirements

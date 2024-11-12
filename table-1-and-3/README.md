@@ -22,7 +22,7 @@ Run the following command in the current folder:
 ./run.sh
 ```
 
-The outputs of ScopeAdvice are parsed to count the number of unique cases caught. The scripts responsible for parsing can be found in *[table-1-and-3](table-1-and-3/)*, called *process-table-1-and-3.py*. 
+The outputs of ScopeAdvice are parsed to count the number of unique cases caught. The scripts responsible for parsing can be found in *[table-1-and-3](../table-1-and-3/)*, called *process-table-1-and-3.py*.
 
 Raw outputs for ScopeAdvice will be contained in *table-1-and-3/ABC/fence.out* and *table-1-and-3/ABC/mem.out* where ABC is the application name (e.g., CU for cuML). The file *fence.out* will report case of over-synchronization and the file *mem.out* will report the memory overhead.
 

@@ -22,7 +22,7 @@ Run the following command in the current folder:
 ./run.sh
 ```
 
-The outputs of this experiment are parsed to measure the runtime overheads of ScopeAdvice. The scripts responsible for parsing can be found in *[figure](figure/)*, called *process-figure.py*. 
+The outputs of this experiment are parsed to measure the runtime overheads of ScopeAdvice. The scripts responsible for parsing can be found in *[figure](../figure/)*, called *process-figure.py*.
 
 Raw outputs for this experiment will be contained in *figure/ABC/eval/XYZ.out*, where ABC is the application name (e.g., CU for cuML), and *XYZ.out* will be the execution time when the application is run along with different optimization levels of ScopeAdvice. XYZ could be 1t1b (Naive), 12tnb (Para), sampling (Para+Sampling) and scopeadvice (all optimizations - ScopeAdvice).
 
