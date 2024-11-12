@@ -12,7 +12,7 @@ The following table lists the workloads used in the evaluation of the submission
 | Gpufilter    | [*[Github](https://github.com/andmax/gpufilter)*] | GPU Recursive Filtering |
 
 ## Modifying applications to eliminate over-synchronization
-To modify the applications that have over-synchronization, the programmer can follow 'db.json' file present in table-1-and-3/ABC where ABC is the application name (e.g., CU). An example can be found in CU folder (*[../table-1-and-3/CU/db.json](table-1-and-3/CU/db.json)*). Note that the db.json file is present only in applications which demonstrate over-synchronization. For this step, programmer will have to manually modify the corresponding source files (3 lines on average). After modification, the code will require recompilation for the changes to take effect.
+To modify the applications that have over-synchronization, the programmer can follow 'db.json' file present in table-1-and-3/ABC where ABC is the application name (e.g., CU). An example can be found in CU folder (*[../table-1-and-3/CU/db.json](../table-1-and-3/CU/db.json)*). Note that the db.json file is present only in applications which demonstrate over-synchronization. For this step, programmer will have to manually modify the corresponding source files (3 lines on average). After modification, the code will require recompilation for the changes to take effect.
 
 
 Link to source files will be added soon.
