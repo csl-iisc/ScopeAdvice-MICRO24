@@ -58,6 +58,8 @@ We provide patch files for enabling different levels of optimziations in *[scope
 
 We provide a wrapper script in *[scope-advice/wrapper](scope-advice/wrapper)* that enables running ScopeAdvice to be run across multiple inputs. Checkout the README for further details and an example run of the script.
 
+We provide the scripts folder with useful microbenchmarks. For example, **[fence_measure.cu](scripts/fence_measure.cu)** helps measure time (clock cycles) for each scoped-fence operation.
+
 ## Setting up docker container (advised)
 To install docker on an Ubuntu machine
 ```bash
